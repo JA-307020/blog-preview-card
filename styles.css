@@ -13,7 +13,7 @@ body{
 
 .card {
   width: 90vw;
-  margin: 20vh auto 2vh;
+  margin: 5vh auto 2vh;
   padding: 24px;
   border: 1px solid black;
   border-radius: 15px;
@@ -85,11 +85,19 @@ h1:hover {
 @media only screen and (min-width: 375px){
  .card {
   width: 85vw;
+  margin-top: 10vh;
  }
 }
 
 @media only screen and (min-width: 450px) {
   .card {
     width: 370px;
+    margin-top: 20vh;
+  }
+}
+
+@media only-screen and (min-width: 576px) {
+  .card {
+    margin-top: 25vh;
   }
 }
