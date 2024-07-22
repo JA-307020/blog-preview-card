@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Figtree";
+  font-size: 14px;
+  line-height: 150%;
+  background-color: #F4D04e;
+}
+
+.card {
+  width: 90vw;
+  margin: 20vh auto;
+  padding: 24px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: #111111;
+  box-shadow: 5px 5px ;
+}
+
+.card:hover {
+  box-shadow: 10px 10px;
+}
+
+.header-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.category {
+  background-color: #F4D04e;
+  font-size: 0.875rem;
+  font-weight: 800;
+  height: 26px;
+  width: 90px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.time-and-date {
+  margin-bottom: 24px;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+h1:hover {
+  color: #F4D04e;
+}
+
+.description {
+  font-size: 1em;
+  font-weight: 500;
+  color: #6b6b6b;
+  margin-bottom: 24px;
+}
+
+.author {
+  display: flex;
+  width: 46%;
+ 
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 375px){
+ .card {
+  width: 85vw;
+ }
+}
+
+@media only screen and (min-width: 450px) {
+  .card {
+    width: 370px;
+  }
+}
